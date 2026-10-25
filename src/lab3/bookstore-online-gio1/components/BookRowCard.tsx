@@ -18,7 +18,7 @@ export function BookRowCard({ book }: { book: Book }) {
   return (
     <View style={[styles.card, { alignItems: CARD_ALIGN_ITEMS }]}>
       <Image source={{ uri: book.cover }} style={styles.cover} />
-S
+      S
       {/* Cột thông tin: flex:1 để ăn hết phần rộng còn lại sau ảnh bìa.
           height cố định = chiều cao ảnh bìa, để justifyContent 'space-between'
           có đủ khoảng trống mà đẩy giá tiền xuống tận đáy. */}
